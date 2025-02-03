@@ -1,6 +1,6 @@
 const {VertexAI} = require('@google-cloud/vertexai');
 
-// Initialize Vertex with your Cloud project and location
+// Initialize Vertex with your Cloud project and location cambio hecho
 const vertex_ai = new VertexAI({project: 'qwiklabs-gcp-00-9c1911dd6113', location: 'us-east4'});
 const model = 'gemini-1.5-pro-001';
 
